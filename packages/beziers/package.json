@@ -1,0 +1,27 @@
+{
+  "name": "beziers",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/beziers/open": {
+      "message": "beziers:prepareAdd"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "beziers",
+    "width": 400,
+    "height": 300
+  },
+    "runtime-resource": {
+    "path": "prefabs",
+    "name": "shared-resource"
+  },
+  "reload": {
+    "ignore": ["prefabs/**/*"]
+  },
+  "scene-script": "hack.js"
+}
